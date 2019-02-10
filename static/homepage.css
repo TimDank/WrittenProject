@@ -1,0 +1,59 @@
+html{
+  background: #e5ab92;
+  -webkit-transition: 0.2s ease-out;
+}
+
+#titleDiv{
+  width: 95%;
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+}
+
+#title{
+  font-family: title;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+
+#outerDiv{
+  width: 100%;
+  height: 100%;
+}
+
+#innerDiv{
+  background: white;
+  width: 85%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #888888;
+  padding: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a, p{
+  font-size: 25px;
+  font-family: Georgia, sans-serif;
+  line-height: 50px;
+  word-wrap: break-word;
+}
+
+b{
+  line-height: 70px;
+}
+
+tab{
+  margin-left: 60px;
+}
+
+big{
+  font-size: 45px;
+}
+
+@font-face {
+  font-family: title;
+  src: url(amita-bold.ttf);
+}
