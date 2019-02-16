@@ -28,7 +28,7 @@ html{
 
 #navBar{
   height: 90px;
-  width: 101%;
+  width: 102%;
   background: #3d3c3c;
   border: none;
   padding-top: 10px;
@@ -71,7 +71,7 @@ html{
 #titleArticle{
   font-size: 80px;
   font-family: titleArticle;
-  line-height: 0px;
+  line-height: 15px;
 }
 
 sub{
