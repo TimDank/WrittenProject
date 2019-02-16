@@ -1,22 +1,56 @@
 html{
-  background: #a9c0e5;
+  background: #966363;
   -webkit-transition: 0.2s ease-out;
 }
 
-#titleDiv{
+/* #navBar{
+  -webkit-transition: 0.2s ease-out;
+  background: black;
+}
+
+.fa-align-justify{
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  top: 20px;
+  left: 20px;
+  border-radius: 60px;
+  box-shadow: none;
+  text-decoration: none;
+} */
+
+/* #titleDiv{
   width: 95%;
   border-bottom: 2px solid black;
   margin-bottom: 50px;
 }
+*/
+
+#navBar{
+  height: 90px;
+  width: 101%;
+  background: #3d3c3c;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  -webkit-transition: 0.20s ease-out;
+}
+
+#navBar:hover{
+  background: #212121;
+}
 
 #title{
-  font-family: title;
-  font-size: 40px;
-  color: black;
+  font-family: titlePage;
+  font-size: 50px;
+  color: white;
   text-align: center;
 }
 
 #outerDiv{
+  margin-top: 40px;
   width: 100%;
   height: 100%;
 }
@@ -34,11 +68,29 @@ html{
   margin-bottom: 20px;
 }
 
+#titleArticle{
+  font-size: 80px;
+  font-family: titleArticle;
+  line-height: 0px;
+}
+
+sub{
+  font-size: 15px;
+}
+
+wordCount{
+  font-style: italic;
+}
+
 a, p{
-  font-size: 25px;
-  font-family: Georgia, sans-serif;
+  font-size: 27px;
   line-height: 50px;
+  font-family: Times, sans-serif;
   word-wrap: break-word;
+}
+
+b{
+  font-family: titleArticle;
 }
 
 b{
@@ -54,6 +106,11 @@ big{
 }
 
 @font-face {
-  font-family: title;
+  font-family: titlePage;
   src: url(amita-bold.ttf);
+}
+
+@font-face {
+  font-family: titleArticle;
+  src: url(ADAM.CG.otf);
 }
