@@ -105,6 +105,27 @@ big{
   font-size: 45px;
 }
 
+#nuclearIMG, #desc{
+  display: inline-block;
+}
+
+#nuclearIMG{
+  background: url(980x.jpg);
+  height: 652px;
+  width: 522px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+#desc{
+  font-size: 15px;
+  font-family: titleArticle;
+  word-wrap: break-word;
+  vertical-align: 300px;
+  width: 200px;
+  text-align: left;
+}
+
 @font-face {
   font-family: titlePage;
   src: url(amita-bold.ttf);
