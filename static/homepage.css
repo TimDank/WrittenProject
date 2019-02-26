@@ -1,6 +1,18 @@
 html{
   background: #966363;
-  -webkit-transition: 0.2s ease-out;
+  -webkit-transition: 0.3s ease-out;
+}
+
+h::selection, b::selection{
+  background: #ffb7b7;
+}
+
+p::selection {
+  background: #fff2a8; /* WebKit/Blink Browsers */
+}
+
+::selection{
+  background: #97f4c5;
 }
 
 /* #navBar{
@@ -106,6 +118,7 @@ html{
   padding-right: 5%;
   margin-top: 20px;
   margin-bottom: 20px;
+  background-image: linear-gradient(to top, #ddeaff, white);
 }
 
 #titleArticle{

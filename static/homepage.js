@@ -12,4 +12,15 @@ document.addEventListener('DOMContentLoaded', () => {
     //     }
     // }
 
+    var html = document.querySelector("html")
+    var outerDiv = document.getElementById("outerDiv");
+
+    outerDiv.onmouseenter = function() {
+        html.style.backgroundColor = "#7a5050";
+    }
+
+    outerDiv.onmouseleave = function() {
+        html.style.backgroundColor = "#966363";
+    }
+
 });
